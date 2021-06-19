@@ -1,6 +1,6 @@
 {
     "name": "@davidcraig/utils",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Reusable helper utilities for various common operations.",
     "main": "main.js",
     "scripts": {
