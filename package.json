@@ -1,0 +1,48 @@
+{
+    "name": "@davidcraig/utils",
+    "version": "0.0.1",
+    "description": "Reusable helper utilities for various common operations.",
+    "main": "main.js",
+    "scripts": {
+        "test": "jest",
+        "build": "babel src --out-dir dist --extensions .ts",
+        "build-main": "babel main.js --out-dir ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dc-frontend/react-bulma.git"
+    },
+    "keywords": [
+        "React",
+        "Components",
+        "Bulma"
+    ],
+    "author": "David Craig <davidcraig1986@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dc-frontend/utils/issues"
+    },
+    "homepage": "https://github.com/dc-frontend/utils",
+    "devDependencies": {
+        "@babel/cli": "^7.13.0",
+        "@babel/core": "^7.13.1",
+        "@babel/preset-env": "^7.13.1",
+        "@babel/preset-typescript": "^7.14.5",
+        "@types/jest": "^26.0.23",
+        "babel-jest": "^24.9.0",
+        "babel-loader": "^8.0.6",
+        "eslint": "^7.20.0",
+        "eslint-config-standard": "^14.1.0",
+        "eslint-plugin-import": "^2.20.1",
+        "eslint-plugin-node": "^11.0.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-react": "^7.18.3",
+        "eslint-plugin-standard": "^4.0.1",
+        "ts-jest": "^27.0.3",
+        "ts-standard": "^10.0.0",
+        "typescript": "^4.3.4"
+    },
+    "ts-standard": {
+        "project": "./tsconfig.json"
+    }
+}
