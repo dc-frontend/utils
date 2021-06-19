@@ -6,7 +6,7 @@
     "scripts": {
         "test": "jest",
         "build": "babel src --out-dir dist --extensions .ts",
-        "build-main": "babel main.js --out-dir ."
+        "build-main": "babel main.js --out-dir . --no-babelrc --presets=@babel/preset-env"
     },
     "repository": {
         "type": "git",
