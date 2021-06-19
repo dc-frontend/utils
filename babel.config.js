@@ -13,6 +13,7 @@ if (NodeEnv === 'test') {
 
 module.exports = {
   presets: [
+    '@babel/preset-env',
     '@babel/preset-typescript'
   ],
   ignore: BabelIgnore
